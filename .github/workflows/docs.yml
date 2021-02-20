@@ -34,7 +34,7 @@ jobs:
     - name: List firebase projects
       uses: w9jds/firebase-action@v2.0.0
       with:
-        args: list
+        args: projects:list
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
     - name: Deploy Zebra book to firebase
