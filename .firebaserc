@@ -1,6 +1,6 @@
 {
   "projects": {
-    "default": "book",
+    "book": "mdbook",
     "doc": "zealous-zebra",
     "doc-internal": "zebra-doc-internal"
   }
