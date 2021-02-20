@@ -31,12 +31,6 @@ jobs:
     - name: Build Zebra book
       run: |
         mdbook build book/
-    - name: List firebase projects
-      uses: w9jds/firebase-action@v2.0.0
-      with:
-        args: projects:list
-      env:
-        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
     - name: Deploy Zebra book to firebase
       uses: w9jds/firebase-action@v2.0.0
       with:
