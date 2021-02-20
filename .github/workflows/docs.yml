@@ -38,6 +38,7 @@ jobs:
       env:
         FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
         PROJECT_PATH: book/
+        PROJECT_ID: book
 
     - name: Build external docs
       run: |
